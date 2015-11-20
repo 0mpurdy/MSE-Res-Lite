@@ -83,3 +83,13 @@ a:hover {
 	margin-left: auto;
 	border: none;
 }
+
+.hymn-contents-table {
+	margin: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	border: none;
+	text-align: center;
+	font-size: 2em;
+}
