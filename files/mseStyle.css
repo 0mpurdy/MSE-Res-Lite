@@ -93,3 +93,11 @@ a:hover {
 	text-align: center;
 	font-size: 2em;
 }
+
+.mse-half {
+	width: 49.9999%
+}
+
+.bible-searchResult {
+	width: 99.9999%;
+}
