@@ -91,15 +91,11 @@ a:hover {
 	width: 90%;
 	border: none;
 	text-align: center;
-	font-size: 2em;
+	font-size: 7vmin;
 }
 
 .mse-half {
 	width: 49.9999%
-}
-
-.bible-searchResult {
-	width: 99.9999%;
 }
 
 .bible-searchResult {
@@ -142,4 +138,8 @@ a:hover {
 	margin-right: auto;
 	font-weight: bold;
 	text-align: center;
+}
+
+.results-hymnbook-name {
+	font-size: 10vmin;
 }
