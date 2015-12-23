@@ -9,6 +9,34 @@ table, td {
 	padding: 5px;
 }
 
+.padded {
+	padding: 15px;
+}
+
+.spaced {
+	margin: 15px;
+}
+
+.centered {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-aligned {
+	text-align: left;
+}
+
+/*.btn {
+	white-space: normal !important;
+    word-wrap: break-word;
+    width: 90%;
+}*/
+
+.row {
+	width: 90%;
+}
+
 /* Bible */
 
 .bible {
@@ -29,11 +57,26 @@ table, td {
 	background-color: #D0D5D0;
 }
 
-a:hover {
-	background-color:yellow;
+/* Ministry */
+
+.contents-title {
+	font-size: 10vmin;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
 }
 
-/* Ministry */
+.contents-sub-title {
+	font-size: 7vmin;
+	color: green;
+	text-decoration: underline;
+	margin: 20px;
+	font-weight: bold;
+}
 
 .volume-title {
 	font-size: 30;
@@ -69,6 +112,21 @@ a:hover {
 
 /* Hymns */
 
+.hymn-contents-header {
+	font-size: 10vmin;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.hymn-contents-number {
+	font-size: 40px;
+}
+
 .hymn-number {
 	font-size: 30;
 }
@@ -84,16 +142,6 @@ a:hover {
 	border: none;
 }
 
-.hymn-contents-table {
-	margin: 30px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-	border: none;
-	text-align: center;
-	font-size: 7vmin;
-}
-
 .mse-half {
 	width: 49.9999%
 }
@@ -103,13 +151,13 @@ a:hover {
 }
 
 .bible-contents-table {
-	width: 99.9999%;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 5vmin;
+	padding: 1vw;
 }
 
 .bible-contents-header {	
-	font-size: 4vw;
+	font-size: 6vmin;
 	color: green;
 	margin-left: auto;
 	margin-right: auto;
@@ -119,7 +167,6 @@ a:hover {
 }
 
 .contents-table {
-	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -141,5 +188,10 @@ a:hover {
 }
 
 .results-hymnbook-name {
-	font-size: 10vmin;
+	font-size: xx-large;
+}
+
+.mse-mark {
+	font-color: rgb(#CCFFCC);
+	font-weight: bold;
 }
