@@ -97,7 +97,7 @@ table, td {
 }
 
 .heading {
-	font-size: 20;
+	font-size: 25;
 	color: green;
 	margin-left: auto;
 	margin-right: auto;
@@ -108,6 +108,7 @@ table, td {
 
 .paragraph {
 	margin: 10px;
+	font-size: 20;
 }
 
 /* Hymns */
