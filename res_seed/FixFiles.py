@@ -11,7 +11,7 @@ import os
 # ½ - 189
 
 def findCharacters(authCode, volumeNumber):
-    print('Volume: ' + str(volumeNumber))
+    print('\tVolume: ' + str(volumeNumber))
     with open('source/%s/%s%d.txt' % (authCode, authCode, volumeNumber), 'r+', encoding='ISO-8859-1') as f:
         content = f.read()
         content = content.replace('¬',"'")
@@ -23,7 +23,10 @@ def findCharacters(authCode, volumeNumber):
         content = content.replace(str(chr(149)),'.')
         content = content.replace(str(chr(133)),'...') 
         content = content.replace(str(chr(150)),'-') 
+        content = content.replace(str(chr(151)),'-')     
+        content = content.replace(str(chr(160)),'') # as far as I could see this character was empty?
         content = content.replace(str(chr(180)),"'") # ´
+        content = content.replace(str(chr(180)),".") # ·
         lines = content.split('\n')
         printNonAsciiChars(content, lines)
         writeNewSource(authCode, volumeNumber, content)
@@ -37,7 +40,7 @@ def printNonAsciiChars(s, lines):
             lineNumber += 1
             colNumber = 0
         if ord(c) > 128:
-            if not (c in 'àäÉéèÏïÔôâöòóêëÚüûç£§î'):
+            if not ((c in 'àäÉéèÏïÔôâöòóêëÚüûç£§î°½†') or (c == 134): # 134 is †
                 print(str(lineNumber) + ':' + str(colNumber) + ' - ' + c + ': ' + str(ord(c)))
                 print(lines[lineNumber] + '\n')
 
@@ -47,6 +50,25 @@ def writeNewSource(authCode, volumeNumber, content):
         os.makedirs(directory)
     with open(directory + '/%s%d.txt' % (authCode, volumeNumber), 'w', encoding='ISO-8859-1') as f:
         f.write(content)
-                
-for i in range(1,24):
-    findCharacters('smc', i)
+
+class Author:
+    def __init__(self, code, numBooks):
+        self.code = code
+        self.numBooks = numBooks
+
+authors = [Author("ajg", 11),
+           Author("cac", 37),
+           Author('chm', 18),
+           Author('fer', 21),
+           Author('grc', 88),
+           Author('jbs', 17),
+           Author('jnd', 52),
+           Author('jt', 103),
+           Author('misc', 27),
+           Author('smc', 10),
+           Author('wjh', 23)]
+           
+for author in authors:
+    print('Processing: ' + author.code)
+    for i in range(1,author.numBooks):
+       findCharacters(author.code, i)
