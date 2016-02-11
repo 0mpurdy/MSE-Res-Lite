@@ -23,10 +23,13 @@ def findCharacters(authCode, volumeNumber):
         content = content.replace(str(chr(149)),'.')
         content = content.replace(str(chr(133)),'...') 
         content = content.replace(str(chr(150)),'-') 
-        content = content.replace(str(chr(151)),'-')     
-        content = content.replace(str(chr(160)),'') # as far as I could see this character was empty?
+        content = content.replace(str(chr(151)),'-') 
+        content = content.replace(str(chr(156)),'oe')
+        content = content.replace(str(chr(153)),'') # as far as I could see this character was empty?
+        content = content.replace(str(chr(157)),'') # same for this one
+        content = content.replace(str(chr(160)),'') # same for this one
         content = content.replace(str(chr(180)),"'") # ´
-        content = content.replace(str(chr(180)),".") # ·
+        content = content.replace(str(chr(183)),".") # ·
         lines = content.split('\n')
         printNonAsciiChars(content, lines)
         writeNewSource(authCode, volumeNumber, content)
@@ -40,8 +43,8 @@ def printNonAsciiChars(s, lines):
             lineNumber += 1
             colNumber = 0
         if ord(c) > 128:
-            if not ((c in 'àäÉéèÏïÔôâöòóêëÚüûç£§î°½†') or (c == 134): # 134 is †
-                print(str(lineNumber) + ':' + str(colNumber) + ' - ' + c + ': ' + str(ord(c)))
+            if not ((c in 'ÂàäÉéèÏïîÔôâöòóêëÚüûç£§°½†') or (ord(c) == 134) or (ord(c) == 136)): # 134 is † 136 is ^ variant
+                print(str(lineNumber+1) + ':' + str(colNumber) + ' - ' + c + ': ' + str(ord(c)))
                 print(lines[lineNumber] + '\n')
 
 def writeNewSource(authCode, volumeNumber, content):
@@ -70,5 +73,5 @@ authors = [Author("ajg", 11),
            
 for author in authors:
     print('Processing: ' + author.code)
-    for i in range(1,author.numBooks):
+    for i in range(1,author.numBooks + 1):
        findCharacters(author.code, i)
