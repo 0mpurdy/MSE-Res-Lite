@@ -24,12 +24,13 @@ def findCharacters(authCode, volumeNumber):
         content = content.replace(str(chr(133)),'...') 
         content = content.replace(str(chr(150)),'-') 
         content = content.replace(str(chr(151)),'-') 
-        content = content.replace(str(chr(156)),'oe')
-        content = content.replace(str(chr(153)),'') # as far as I could see this character was empty?
-        content = content.replace(str(chr(157)),'') # same for this one
-        content = content.replace(str(chr(160)),'') # same for this one
+##        content = content.replace(str(chr(156)),'oe')
+##        content = content.replace(str(chr(153)),'') # as far as I could see this character was empty?
+##        content = content.replace(str(chr(157)),'') # same for this one
+##        content = content.replace(str(chr(160)),'') # same for this one
         content = content.replace(str(chr(180)),"'") # ´
         content = content.replace(str(chr(183)),".") # ·
+        content = content.replace(str(chr(226)),"'")
         lines = content.split('\n')
         printNonAsciiChars(content, lines)
         writeNewSource(authCode, volumeNumber, content)
@@ -54,6 +55,16 @@ def writeNewSource(authCode, volumeNumber, content):
     with open(directory + '/%s%d.txt' % (authCode, volumeNumber), 'w', encoding='ISO-8859-1') as f:
         f.write(content)
 
+def procressAllAuthors(authors):
+    for author in authors:
+        processSingleAuthor(author)
+           
+def processSingleAuthor(author):
+    print('Processing: ' + author.code)
+    for i in range(1,author.numBooks + 1):
+       findCharacters(author.code, i)
+    
+
 class Author:
     def __init__(self, code, numBooks):
         self.code = code
@@ -71,7 +82,4 @@ authors = [Author("ajg", 11),
            Author('smc', 10),
            Author('wjh', 23)]
            
-for author in authors:
-    print('Processing: ' + author.code)
-    for i in range(1,author.numBooks + 1):
-       findCharacters(author.code, i)
+processSingleAuthor(authors[8])
