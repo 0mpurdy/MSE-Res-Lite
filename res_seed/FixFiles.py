@@ -23,11 +23,7 @@ def findCharacters(authCode, volumeNumber):
         content = content.replace(str(chr(149)),'.')
         content = content.replace(str(chr(133)),'...') 
         content = content.replace(str(chr(150)),'-') 
-        content = content.replace(str(chr(151)),'-') 
-##        content = content.replace(str(chr(156)),'oe')
-##        content = content.replace(str(chr(153)),'') # as far as I could see this character was empty?
-##        content = content.replace(str(chr(157)),'') # same for this one
-##        content = content.replace(str(chr(160)),'') # same for this one
+        content = content.replace(str(chr(151)),'-')
         content = content.replace(str(chr(180)),"'") # ´
         content = content.replace(str(chr(183)),".") # ·
         content = content.replace(str(chr(226)),"'")
