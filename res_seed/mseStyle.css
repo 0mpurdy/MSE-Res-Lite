@@ -27,6 +27,17 @@ table, td {
 	text-align: left;
 }
 
+
+  @media (min-width: 768px) {
+    .container {
+      width: 732px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 732px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 732px; } }
+
 /*.btn {
 	white-space: normal !important;
     word-wrap: break-word;
