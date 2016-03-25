@@ -1,0 +1,209 @@
+/* global */
+
+html {
+	font-family: Arial, sans-serif;
+}
+
+table, td {
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.padded {
+	padding: 15px;
+}
+
+.spaced {
+	margin: 15px;
+}
+
+.centered {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-aligned {
+	text-align: left;
+}
+
+
+  @media (min-width: 768px) {
+    .container {
+      width: 732px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 732px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 732px; } }
+
+/*.btn {
+	white-space: normal !important;
+    word-wrap: break-word;
+    width: 90%;
+}*/
+
+.row {
+	width: 90%;
+}
+
+/* Bible */
+
+.bible {
+	margin: 10px;
+}
+
+.chapterTitle {
+	background-color: #002900;
+	color: #FFFFFF;
+	padding: 20px;
+	vertical-align: center;
+	font-size: 30;
+	font-weight: bold;
+	text-align: center;
+}
+
+.odd {
+	background-color: #D0D5D0;
+}
+
+/* Ministry */
+
+.contents-title {
+	font-size: 10vmin;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.contents-sub-title {
+	font-size: 7vmin;
+	color: green;
+	text-decoration: underline;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.volume-title {
+	font-size: 30;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.page-number {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 20px;
+}
+
+.heading {
+	font-size: 25;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.paragraph {
+	margin: 10px;
+	font-size: 20;
+}
+
+/* Hymns */
+
+.hymn-contents-header {
+	font-size: 10vmin;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: underline;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.hymn-contents-number {
+	font-size: 40px;
+}
+
+.hymn-number {
+	font-size: 30;
+}
+
+.verse-number {
+	font-size: 20;
+}
+
+.hymn-table {
+	margin: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+}
+
+.mse-half {
+	width: 49.9999%
+}
+
+.bible-searchResult {
+	width: 99.9999%;
+}
+
+.bible-contents-table {
+	text-align: center;
+	font-size: 5vmin;
+	padding: 1vw;
+}
+
+.bible-contents-header {	
+	font-size: 6vmin;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.contents-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents-volume-heading {
+	font-size: 4vw;
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contents-page-numbers-table {
+	font-size: 4vw;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	text-align: center;
+}
+
+.results-hymnbook-name {
+	font-size: xx-large;
+}
+
+.mse-mark {
+	font-color: rgb(#CCFFCC);
+	font-weight: bold;
+}
