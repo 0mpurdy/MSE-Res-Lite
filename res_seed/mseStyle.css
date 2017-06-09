@@ -207,3 +207,7 @@ table, td {
 	font-color: rgb(#CCFFCC);
 	font-weight: bold;
 }
+
+.docs-title {
+	color: green;
+}
