@@ -1,0 +1,77 @@
+[^@](Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|[0-9]+\W* Samuel|[0-9]+\W* Kings|[0-9]+\W* Chronicles|Ezra|Nehemiah|Esther|Job|Psalms|Psalm|Proverbs|Ecclesiastes|SongOfSongs|Song Of Songs|Isaiah|Jeremiah|Lamentations|Ezekie|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi)[^\n\w]*[0-9]
+
+[^@]                Doesn't start with an @
+(                   Start group of books
+Genesis                  Match Genesis
+|Exodus                      OR match Exodus
+|Leviticus                   OR match Leviticus
+|Numbers                     OR match Numbers
+|Deuteronomy                 OR match Deuteronomy
+|Joshua                      OR match Joshua
+|Judges                      OR match Judges
+|Ruth                        OR match Ruth
+|[0-9]+\W* Samuel            OR match Samuel
+|[0-9]+\W* Kings             OR match Kings
+|[0-9]+\W* Chronicles        OR match Chronicles
+|Ezra                        OR match Ezra
+|Nehemiah                    OR match Nehemiah
+|Esther                      OR match Esther
+|Job                         OR match Job
+|Psalms|Psalm                OR match Psalms
+|Proverbs                    OR match Proverbs
+|Ecclesiastes                OR match Ecclesiastes
+|SongOfSongs|Song Of Songs   OR match SongOfSongs
+|Isaiah                      OR match Isaiah
+|Jeremiah                    OR match Jeremiah
+|Lamentations                OR match Lamentations
+|Ezekie                      OR match Ezekie
+|Daniel                      OR match Daniel
+|Hosea                       OR match Hosea
+|Joel                        OR match Joel
+|Amos                        OR match Amos
+|Obadiah                     OR match Obadiah
+|Jonah                       OR match Jonah
+|Micah                       OR match Micah
+|Nahum                       OR match Nahum
+|Habakkuk                    OR match Habakkuk
+|Zephaniah                   OR match Zephaniah
+|Haggai                      OR match Haggai
+|Zechariah                   OR match Zechariah
+|Malachi                     OR match Malachi
+)               End group of books
+[^\n\w]*        Whitespace that isn't newline
+[0-9]           Must have chapter number after it
+
+books to be added
+
+Matthew
+Mark
+Luke
+John
+Acts
+Romans
+1 Corinthians
+2 Corinthians
+Galatians
+Ephesians
+Philippians
+Colossians
+1 Thessalonians
+2 Thessalonians
+1 Timothy
+2 Timothy
+Titus
+Philemon
+Hebrews
+James
+1 Peter
+2 Peter
+1 John
+2 John
+3 John
+lJude
+Revelation
+
+Simple initial version
+
+[^@]([0-9]+\W*Kings|Ezra|Haggai)\W*[0-9] 
