@@ -24,24 +24,30 @@ If you are still having trouble try seeing if your error is [one of these errors
 ## Possible Errors
 
 Symptoms: 
+
  - Performs search (blue bar fills up) but doesn't open results
 
 Possible Reason: 
+
  - You may not have associated a file type
 
 Fix:
+
  - Locate the file `"res/target/results/search-results.html"`
  - Right Click -> Open with -> Set default program
 
 ----
 
 Symptoms: 
+
  - Returns 0 results
 
 Possible Reason:
+
  - The words you are searching for do not match correctly
 
 Fix:
+
  - Change the "Search Type" to "contains" or "contains in order"
 
 ----
