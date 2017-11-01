@@ -19,38 +19,7 @@ The folder can be renamed or moved but the contents must stay where they are - c
 
 Link to Dropbox: [https://mse.0mpurdy.com/](https://mse.0mpurdy.com/)
 
-If you are still having trouble try seeing if your error is [one of these errors below](#windows-errors), or email me at [0mpurdy@gmail.com](mailto:0mpurdy@gmail.com)
-
-## Instructions for older versions
-
-### Windows
-
-Download the "Windows" folder from the dropbox folder: [here](https://mse.0mpurdy.com/)
-Open the folder (left click)
-Select download (top right corner)
-Choose "as zip"
-If it asks whether to open or save choose save
-Extract the folder if it is zipped (ends in .zip) otherwise skip this step
-Right Click the folder
-Select "Extract All"
-Once it is finished and you see a new folder called Windows delete the folder ending in .zip
-Open the "Windows folder"
-Double click "MSE.exe"
-
-### Windows - Quick
-
-Dowload the "Windows" folder from dropbox: [here](https://mse.0mpurdy.com/)
-Extract it
-Double click MSE.exe
-
-### Mac - Quick
-
-Open the "Windows" folder in the dropbox folder: [here](https://mse.0mpurdy.com/)
-Download the "res" folder
-Open the "Mac" folder in dropbox
-Download "MSE.jar"
-Put "MSE.jar" and "res" in the same folder
-Double click "MSE.jar" (you will need Java installed)
+If you are still having trouble try seeing if your error is [one of these errors below](#possible-errors), or email me at [0mpurdy@gmail.com](mailto:0mpurdy@gmail.com)
 
 ## Possible Errors
 
@@ -61,7 +30,7 @@ Possible Reason:
  - You may not have associated a file type
 
 Fix:
- - Locate the file "res/target/results/SearchResults.htm"
+ - Locate the file `"res/target/results/search-results.html"`
  - Right Click -> Open with -> Set default program
 
 ----
