@@ -1,0 +1,332 @@
+[
+    {
+        "name": "Genesis",
+        "numberOfBooks": 50,
+        "tag": "GENESIS"
+    },
+    {
+        "name": "Exdodus",
+        "numberOfBooks": 40,
+        "tag": "EXODUS"
+    },
+    {
+        "name": "Leviticus",
+        "numberOfBooks": 27,
+        "tag": "LEVITICUS"
+    },
+    {
+        "name": "Numbers",
+        "numberOfBooks": 36,
+        "tag": "NUMBERS"
+    },
+    {
+        "name": "Deuteronomy",
+        "numberOfBooks": 34,
+        "tag": "DEUTERONOMY"
+    },
+    {
+        "name": "Joshua",
+        "numberOfBooks": 24,
+        "tag": "JOSHUA"
+    },
+    {
+        "name": "Judges",
+        "numberOfBooks": 21,
+        "tag": "JUDGES"
+    },
+    {
+        "name": "Ruth",
+        "numberOfBooks": 4,
+        "tag": "RUTH"
+    },
+    {
+        "name": "1 Samuel",
+        "numberOfBooks": 31,
+        "tag": "SAMUEL1"
+    },
+    {
+        "name": "2 Samuel",
+        "numberOfBooks": 24,
+        "tag": "SAMUEL2"
+    },
+    {
+        "name": "1 Kings",
+        "numberOfBooks": 22,
+        "tag": "KINGS1"
+    },
+    {
+        "name": "2 Kings",
+        "numberOfBooks": 25,
+        "tag": "KINGS2"
+    },
+    {
+        "name": "1 Chronicles",
+        "numberOfBooks": 29,
+        "tag": "CHRONICLES1"
+    },
+    {
+        "name": "2 Chronicles",
+        "numberOfBooks": 36,
+        "tag": "CHRONICLES2"
+    },
+    {
+        "name": "Ezra",
+        "numberOfBooks": 10,
+        "tag": "EZRA"
+    },
+    {
+        "name": "Nehemiah",
+        "numberOfBooks": 13,
+        "tag": "NEHEMIAH"
+    },
+    {
+        "name": "Esther",
+        "numberOfBooks": 10,
+        "tag": "ESTHER"
+    },
+    {
+        "name": "Job",
+        "numberOfBooks": 42,
+        "tag": "JOB"
+    },
+    {
+        "name": "Psalms",
+        "numberOfBooks": 150,
+        "tag": "PSALMS"
+    },
+    {
+        "name": "Proverbs",
+        "numberOfBooks": 31,
+        "tag": "PROVERBS"
+    },
+    {
+        "name": "Ecclesiastes",
+        "numberOfBooks": 12,
+        "tag": "ECCLESIASTES"
+    },
+    {
+        "name": "Song of Songs",
+        "numberOfBooks": 8,
+        "tag": "SONGOFSONGS"
+    },
+    {
+        "name": "Isaiah",
+        "numberOfBooks": 66,
+        "tag": "ISAIAH"
+    },
+    {
+        "name": "Jeremiah",
+        "numberOfBooks": 52,
+        "tag": "JEREMIAH"
+    },
+    {
+        "name": "Lamentations",
+        "numberOfBooks": 5,
+        "tag": "LAMENTATIONS"
+    },
+    {
+        "name": "Ezekiel",
+        "numberOfBooks": 48,
+        "tag": "EZEKIEL"
+    },
+    {
+        "name": "Daniel",
+        "numberOfBooks": 12,
+        "tag": "DANIEL"
+    },
+    {
+        "name": "Hosea",
+        "numberOfBooks": 14,
+        "tag": "HOSEA"
+    },
+    {
+        "name": "Joel",
+        "numberOfBooks": 3,
+        "tag": "JOEL"
+    },
+    {
+        "name": "Amos",
+        "numberOfBooks": 9,
+        "tag": "AMOS"
+    },
+    {
+        "name": "Obadiah",
+        "numberOfBooks": 1,
+        "tag": "OBADIAH"
+    },
+    {
+        "name": "Jonah",
+        "numberOfBooks": 4,
+        "tag": "JONAH"
+    },
+    {
+        "name": "Micah",
+        "numberOfBooks": 7,
+        "tag": "MICAH"
+    },
+    {
+        "name": "Nahum",
+        "numberOfBooks": 3,
+        "tag": "NAHUM"
+    },
+    {
+        "name": "Habakkuk",
+        "numberOfBooks": 3,
+        "tag": "HABAKKUK"
+    },
+    {
+        "name": "Zephaniah",
+        "numberOfBooks": 3,
+        "tag": "ZEPHANIAH"
+    },
+    {
+        "name": "Haggai",
+        "numberOfBooks": 2,
+        "tag": "HAGGAI"
+    },
+    {
+        "name": "Zechariah",
+        "numberOfBooks": 14,
+        "tag": "ZECHARIAH"
+    },
+    {
+        "name": "Malachi",
+        "numberOfBooks": 4,
+        "tag": "MALACHI"
+    },
+    {
+        "name": "Matthew",
+        "numberOfBooks": 28,
+        "tag": "MATTHEW"
+    },
+    {
+        "name": "Mark",
+        "numberOfBooks": 16,
+        "tag": "MARK"
+    },
+    {
+        "name": "Luke",
+        "numberOfBooks": 24,
+        "tag": "LUKE"
+    },
+    {
+        "name": "John",
+        "numberOfBooks": 21,
+        "tag": "JOHN"
+    },
+    {
+        "name": "Acts",
+        "numberOfBooks": 28,
+        "tag": "ACTS"
+    },
+    {
+        "name": "Romans",
+        "numberOfBooks": 16,
+        "tag": "ROMANS"
+    },
+    {
+        "name": "1 Corinthians",
+        "numberOfBooks": 16,
+        "tag": "CORINTHIANS1"
+    },
+    {
+        "name": "2 Corinthians",
+        "numberOfBooks": 13,
+        "tag": "CORINTHIANS2"
+    },
+    {
+        "name": "Galatians",
+        "numberOfBooks": 6,
+        "tag": "GALATIANS"
+    },
+    {
+        "name": "Ephesians",
+        "numberOfBooks": 6,
+        "tag": "EPHESIANS"
+    },
+    {
+        "name": "Philipians",
+        "numberOfBooks": 4,
+        "tag": "PHILIPPIANS"
+    },
+    {
+        "name": "Colossians",
+        "numberOfBooks": 4,
+        "tag": "COLOSSIANS"
+    },
+    {
+        "name": "1 Thessalonians",
+        "numberOfBooks": 5,
+        "tag": "THESSALONIANS1"
+    },
+    {
+        "name": "2 Thessalonians",
+        "numberOfBooks": 3,
+        "tag": "THESSALONIANS2"
+    },
+    {
+        "name": "1 Timothy",
+        "numberOfBooks": 6,
+        "tag": "TIMOTHY1"
+    },
+    {
+        "name": "2 Timothy",
+        "numberOfBooks": 4,
+        "tag": "TIMOTHY2"
+    },
+    {
+        "name": "Titus",
+        "numberOfBooks": 3,
+        "tag": "TITUS"
+    },
+    {
+        "name": "Philemon",
+        "numberOfBooks": 1,
+        "tag": "PHILEMON"
+    },
+    {
+        "name": "Hebrews",
+        "numberOfBooks": 13,
+        "tag": "HEBREWS"
+    },
+    {
+        "name": "James",
+        "numberOfBooks": 5,
+        "tag": "JAMES"
+    },
+    {
+        "name": "1 Peter",
+        "numberOfBooks": 5,
+        "tag": "PETER1"
+    },
+    {
+        "name": "2 Peter",
+        "numberOfBooks": 3,
+        "tag": "PETER2"
+    },
+    {
+        "name": "1 John",
+        "numberOfBooks": 5,
+        "tag": "JOHN1"
+    },
+    {
+        "name": "2 John",
+        "numberOfBooks": 1,
+        "tag": "JOHN2"
+    },
+    {
+        "name": "3 John",
+        "numberOfBooks": 1,
+        "tag": "JOHN3"
+    },
+    {
+        "name": "Jude",
+        "numberOfBooks": 1,
+        "tag": "JUDE"
+    },
+    {
+        "name": "Revelation",
+        "numberOfBooks": 22,
+        "tag": "REVELATION"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "availableOnAndroid": false,
+        "code": "Bible",
+        "index": 0,
+        "isMinistry": false,
+        "name": "Bible",
+        "numberOfVolumes": 66,
+        "tag": "BIBLE"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "Hymns",
+        "index": 1,
+        "isMinistry": false,
+        "name": "Hymns",
+        "numberOfVolumes": 5,
+        "tag": "HYMNS"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "Tunes",
+        "index": 2,
+        "isMinistry": false,
+        "name": "Hymn Tunes",
+        "numberOfVolumes": 100,
+        "tag": "TUNES"
+    },
+    {
+        "availableOnAndroid": true,
+        "code": "JND",
+        "index": 3,
+        "isMinistry": true,
+        "name": "J.N.Darby",
+        "numberOfVolumes": 52,
+        "tag": "JND"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "JBS",
+        "index": 4,
+        "isMinistry": true,
+        "name": "J.B.Stoney",
+        "numberOfVolumes": 17,
+        "tag": "JBS"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "CHM",
+        "index": 5,
+        "isMinistry": true,
+        "name": "C.H.Mackintosh",
+        "numberOfVolumes": 18,
+        "tag": "CHM"
+    },
+    {
+        "availableOnAndroid": true,
+        "code": "FER",
+        "index": 6,
+        "isMinistry": true,
+        "name": "F.E.Raven",
+        "numberOfVolumes": 21,
+        "tag": "FER"
+    },
+    {
+        "availableOnAndroid": true,
+        "code": "CAC",
+        "index": 7,
+        "isMinistry": true,
+        "name": "C.A.Coates",
+        "numberOfVolumes": 37,
+        "tag": "CAC"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "JT",
+        "index": 8,
+        "isMinistry": true,
+        "name": "J.Taylor Snr",
+        "numberOfVolumes": 103,
+        "tag": "JT"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "GRC",
+        "index": 9,
+        "isMinistry": true,
+        "name": "G.R.Cowell",
+        "numberOfVolumes": 88,
+        "tag": "GRC"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "AJG",
+        "index": 10,
+        "isMinistry": true,
+        "name": "A.J.Gardiner",
+        "numberOfVolumes": 11,
+        "tag": "AJG"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "SMC",
+        "index": 11,
+        "isMinistry": true,
+        "name": "S.McCallum",
+        "numberOfVolumes": 10,
+        "tag": "SMC"
+    },
+    {
+        "availableOnAndroid": true,
+        "code": "WJH",
+        "index": 12,
+        "isMinistry": true,
+        "name": "W.J.House",
+        "numberOfVolumes": 23,
+        "tag": "WJH"
+    },
+    {
+        "availableOnAndroid": false,
+        "code": "Misc",
+        "index": 13,
+        "isMinistry": true,
+        "name": "Various Authors",
+        "numberOfVolumes": 26,
+        "tag": "Misc"
+    }
+]
