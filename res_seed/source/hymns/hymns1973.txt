@@ -2908,11 +2908,11 @@ Christ is the Saviour of sinners,
 Christ is the Saviour for me;
 Long I was chained in sins darkness,
 Now by His grace I am free.
-||
-<i>Saviour of sinners,
+|-1|
+Saviour of sinners,
 Saviour of sinners like me,
 Giving Himself as a ransom --
-This is the Saviour for me.</i>
+This is the Saviour for me.
 |2|
 Now I can say I am pardoned,
 Happy and justified free,
@@ -4000,9 +4000,9 @@ Blessed assurance -- Jesus is mine!
 Oh, what a foretaste of glory divine!
 Heir of salvation, purchase of God;
 Born of His Spirit, washed in the blood.
-||
-<i>This is my story, this is my song,
-Praising my Saviour all the day long.</i>
+|-1|
+This is my story, this is my song,
+Praising my Saviour all the day long.
 |2|
 Perfect salvation, all is at rest;
 I in my Saviour am happy and blest,
@@ -6069,11 +6069,11 @@ How sweet is the story of God's boundless love,
 That brought His blest Son from the glory above!
 Who died in our stead upon Calvary's tree,
 Obtaining redemption that we might be free.
-||
-<i>Sound His praise! sound His praise! all the work has been done
+|-1|
+Sound His praise! sound His praise! all the work has been done
 Praise His Name! praise His Name! God's own blessed Son;
 We give Him the glory, our Saviour and Friend;
-Our Song is of Jesus, and never will end.</i>
+Our Song is of Jesus, and never will end.
 |2|
 How wondrous the story! the claims of the throne
 Were met by the blood which for guilt did atone;
@@ -10781,11 +10781,11 @@ Jesus lingers still, 'tis for you He waits,
 And He's waited for you long;
 He waits that heav'en, with its fadeless joy,
 May yet to you belong.
-||
-<i>Come and welcome, welcome whosoever will,
+|-1|
+Come and welcome, welcome whosoever will,
 'Tis the Saviour's gracious call;
 He is able, willing, waiting now to save;
-Simply trust Him, that is all.</i>
+Simply trust Him, that is all.
 |2|
 Though your wayward feet have wandered far,
 And you're deeply sunk in sin,
