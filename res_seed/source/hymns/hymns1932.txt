@@ -3515,7 +3515,7 @@ And, Saviour! ¬tis Thee from on high
 We await till the time Thou shalt come,
 To take those Thou hast led by Thine eye
 To Thyself in Thy heavenly home.
-|7|
+|8|
 Till then ¬tis the path Thou hast trod
 Our delight and our comfort shall be;
 We're content with Thy staff and Thy rod,
@@ -3974,7 +3974,6 @@ J. N. DARBY (1800-1882), 6.4.6.4.
 |1|
 O bright and blessed hope!
 When shall it be
-
 That we His face, long loved,
 Revealed shall see?
 |2|
@@ -4002,7 +4001,7 @@ To gaze upon Thyself
 So faithful known,
 Long proved in secret help
 With Thee alone;
-|7
+|7|
 To see that love, content,
 On us flow forth,
 For ever Thy delight,
