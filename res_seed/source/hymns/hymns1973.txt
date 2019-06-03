@@ -2200,16 +2200,16 @@ Triune "The Name."
 G V WIGRAM, S.M.
 |1|
 What raised the wondrous thought,
-Or who did this suggest,-
+Or who did this suggest-
 The church should be to glory brought,
 And with the Son be blest?
 |2|
-O God the thought was Thine,
+O God, the thought was Thine,
 Thine only could it be,
-Fruit of Thy wisdom, love divine,
+Fruit of the wisdom, love divine,
 Peculiar unto Thee.
 |3|
-For, sure no other mind,
+For, sure, no other mind,
 For thoughts so bold, so free,
 Greatness or strength could ever find;
 Thine only could it be.
@@ -2219,7 +2219,7 @@ The plan, the counsel, Thine;
 Made for Thy Son, bone of His bone,
 In glory bright to shine.
 |5|
-O God with great delight
+O God, with great delight
 Thy wondrous thought we see;
 Upon His throne, in glory bright,
 The bride of Christ shall be.
@@ -7117,6 +7117,8 @@ In Thy beloved Name.
 G W FRASER, 8.8.6.8.8.6.
 |1|
 What rich eternal bursts of praise
+Shall fill yon courts through endless days,
+When time shall cease to be!
 Round and around the notes shall swell,
 As each redeemed one joins to tell
 Thy love, so vast and free.
@@ -7719,7 +7721,7 @@ Where'er we tread.
 |3|
 When faith and hope shall cease,
 And love abides alone,
-Then shall we see Thee face to face,
+Then shall we see Him face to face,
 And know as known.
 Still shall we lift our voice,
 His praise our song shall be,
@@ -9225,7 +9227,7 @@ The Lamb who bore the judgement stroke,
 And all the power of Satan broke.
 |3|
 The Prince of Life, Thou livest now,
-Worthy that all to Thee shouldst bow;
+Worthy that all to Thee should bow;
 All-glorious now upon God's throne,
 And worthy to be crowned alone!
 |4|
@@ -10237,7 +10239,7 @@ O life-creating Sun
 To worlds on Thee dependant!-
 Was bruised and spit upon.
 O Lord, what Thee tormented
-Was our sins heavy load;
+Was our sins' heavy load;
 We had the debt augmented
 Which Thou didst pay in blood.
 |3|
